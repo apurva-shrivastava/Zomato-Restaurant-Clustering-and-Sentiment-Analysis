@@ -1,6 +1,6 @@
 # Zomato Restaurant Clustering and Sentiment Analysis
 
-![Zomato](https://example.com/zomato.jpg)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -60,7 +60,7 @@ MetaData : Reviewer Metadata - No. of Reviews and followers
 
 Time: Date and Time of Review
 
-Pictures : No. of pictures posted with review
+Pictures: No. of pictures posted with a review
 
 The dataset may include additional relevant features, such as opening hours, amenities, and contact information, depending on the source.
 
@@ -68,11 +68,10 @@ The dataset may include additional relevant features, such as opening hours, ame
 
 To run this project locally, follow these steps:
 
-1. Clone the repository to your local machine.
+1. Copy the Colab File into your drive.
 
 
-2. Install the required dependencies.
-
+2. Run the Colab File.
 
 
 ## Usage
@@ -82,13 +81,13 @@ Once the project and its dependencies are installed, you can perform clustering 
 The main files in this repository are:
 
 - `zomato_restaurant_analysis.ipynb`: Colab Notebook containing the step-by-step process of clustering and sentiment analysis.
-- `data/`: Directory containing the dataset files.
+
 
 Feel free to modify the code according to your needs and experiment with different clustering algorithms and sentiment analysis techniques.
 
 ## Clustering
 
-In the Colab Notebook, we apply unsupervised learning algorithms such as K-Means, Hierarchical Clustering to group restaurants with similar features into clusters. Clustering allows us to identify patterns in the data and discover restaurants that offer similar cuisines, have comparable ratings, or cater to similar demographics. By visualizing the clusters, we gain a deeper understanding of the restaurant landscape and identify distinct market segments.
+In the Colab Notebook, we apply unsupervised learning algorithms such as K-Means, and Hierarchical Clustering to group restaurants with similar features into clusters. Clustering allows us to identify patterns in the data and discover restaurants that offer similar cuisines, have comparable ratings, or cater to similar demographics. By visualizing the clusters, we gain a deeper understanding of the restaurant landscape and identify distinct market segments.
 
 ## Sentiment Analysis
 
@@ -100,7 +99,7 @@ The results of the clustering analysis and sentiment analysis are presented in t
 
 - Identification of restaurant clusters with similar attributes, helping customers discover restaurants that match their preferences.
 - Discovering popular cuisines and their association with specific locations, assisting travelers and locals in finding diverse culinary experiences.
-- Understanding the sentiment towards various restaurants based on customer reviews, guiding restaurant owners in improving customer experiences and addressing any concerns.
+- Understanding the sentiment towards various restaurants based on customer reviews, guiding restaurant owners in improving customer experiences, and addressing any concerns.
 
 These findings can be utilized by customers to explore restaurants that match their preferences and by restaurant owners to understand customer sentiments and make data-driven decisions to improve their services.
 
